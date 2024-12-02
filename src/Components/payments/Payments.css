@@ -1,0 +1,180 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.OrderSummary {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.OrderSummary .topSec {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.OrderSummary .bottomSec {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.OrderedProduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderedProduct .lef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.OrderedProduct .lef img {
+    height: 8vh;
+}
+
+.OrderedProduct .lef .Prodinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: smaller;
+    max-width: 15vw;
+}
+
+.bottomSec .summary {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.summary .subtotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.summary .shipping {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(174, 174, 174);
+}
+
+.summary .totalAmount {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.upHr {
+    background: rgb(144, 143, 143);
+    border: none;
+    outline: none;
+    padding: 1px;
+}
+.downHr {
+    background: rgb(182, 181, 181);
+    border: none;
+    outline: none;
+    padding: 1px;
+}
+
+.UserDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 30%;
+    background-color: rgb(172, 216, 252);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.address h6 {
+    font-weight: 400;
+    color: gray;
+    text-decoration: underline;
+    margin-top: 4px;
+}
+
+.paymentDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.paymentDetails .row {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.paymentDetails .wFull {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid rgb(148, 148, 148);
+    font-size: 15px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.final .confirm {
+    display: flex;
+    gap: 7px;
+}
+
+.final .pay {
+    height: 6vh;
+    border-radius: 6px;
+    background-color: rgb(51, 51, 165);
+    color: white;
+    font-size: large;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.6s;
+    }
+}
+
+.padd {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid rgb(148, 148, 148);
+    font-size: 15px;
+}
+
+.lab {
+    font-weight: bold;
+}
+
+.pa {
+    font-size: smaller;
+    font-weight: 500;
+}

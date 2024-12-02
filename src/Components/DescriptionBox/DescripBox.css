@@ -1,0 +1,39 @@
+.descripBox {
+    margin: 120px 170px;
+}
+
+.navigator {
+    display: flex;
+    /* gap: 20px; */
+}
+.navBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 10vw;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+}
+
+.fade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 10vw;
+    height: 70px;
+    border: 1px solid #e2e2e2;
+    background: #eeeded;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+}

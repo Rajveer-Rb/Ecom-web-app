@@ -1,0 +1,103 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.menu ul{
+    display: flex;
+    gap: 18px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.Cart {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.Cart button {
+    padding: 4px;
+    border-radius: 20px;
+    width: 6vw;
+    height: 5vh;
+    border: 1px solid #7a7a7a;
+    color: #515151;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 500;
+    cursor:pointer;
+
+    &:hover {
+        background-color: #f3f3f3;
+    }
+}
+
+.Cart .Userprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(211, 210, 210);
+    border-radius: 32px;
+    padding: 7px;
+    height: 6vh;
+}
+.Userprofile img {
+    border-radius: 100px;
+    height: 6vh;
+} 
+
+.Userprofile p {
+    font-size: smaller;
+}
+
+.Userprofile h3{
+    font-size: 17px;
+}
+
+.menu hr {
+    border: none;
+    width: 90%;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+
+.end {
+    background-color: #eeeeee; 
+    padding: 1px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.Cart .count {
+
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -25px;
+    border-radius: 11px;
+    font-size: 14px;
+    font:bolder;
+    background-color: red;
+    color: white;
+}
